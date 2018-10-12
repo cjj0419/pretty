@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		.box{
+			width:567px;
+			height:332px;
+			background: url(img/1.jpg) no-repeat;
+			border: 20px dotted;
+			/*背景大小 background-size X Y(auto默认值)*/
+			/*cover:拉满最大边;*/
+			/*contain:拉满最小边;*/
+			/*background-size: 100% 100%;*/
+			/*相对内容框来定位背景图片*/
+			/*padding-box(默认)
+			border-box  content-box */
+			/*background-origin: content-box;*/
+			/*剪切*/
+			/*padding-box border-box  content-box */
+			background-clip: padding-box;
+		}
+	</style>
+</head>
+<body>
+	<div class="box"></div>
+</body>
+</html>
